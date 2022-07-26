@@ -15,12 +15,12 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--extra-libs='-lfftw3f' \
 	--extra-version=Jellyfin \
 	--disable-doc \
-	--disable-ffplay \
+	--enable-ffplay \
 	--disable-ptx-compression \
 	--disable-shared \
-	--disable-libxcb \
-	--disable-sdl2 \
-	--disable-xlib \
+	--enable-libxcb \
+	--enable-sdl2 \
+	--enable-xlib \
 	--enable-lto \
 	--enable-gpl \
 	--enable-version3 \
