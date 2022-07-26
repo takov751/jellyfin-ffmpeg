@@ -31,7 +31,7 @@ jobs:
     with:
       distro: 'ubuntu'
       codenames: '["jammy"]'
-      architectures: '["amd64", "arm64", "armhf"]'
+      architectures: '["armhf"]'
       release: false
 
 ##  build_windows:
