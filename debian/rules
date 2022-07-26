@@ -19,7 +19,7 @@ CONFIG := --prefix=${TARGET_DIR} \
 	--disable-ptx-compression \
 	--disable-shared \
 	--enable-libxcb \
-	--disable-sdl2 \
+	--enable-sdl2 \
 	--enable-xlib \
 	--enable-lto \
 	--enable-gpl \
