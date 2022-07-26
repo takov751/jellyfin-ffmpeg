@@ -32,7 +32,7 @@ jobs:
       distro: 'ubuntu'
       codenames: '["jammy"]'
       architectures: '["armhf"]'
-      release: true
+      release: false
 
 ##  build_windows:
 ##    uses: ./.github/workflows/_meta.yaml
